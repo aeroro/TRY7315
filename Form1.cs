@@ -15,10 +15,14 @@ namespace truehomework
         public Form1()
         {
             InitializeComponent();
+
+
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+
             this.gobake();
+
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -51,13 +55,13 @@ namespace truehomework
                 perc = Commeraicl;
 
             listBox1.Items.Clear();
-            int m = start.Month;
-            int f = start.Day;
-            int em = end.Month;
-            int ef = end.Day;
-            for (int i = start.Year; i <= end.Year; i++)
-            {
+            var m = start.Month;
+            var f = start.Day;
+            var em = start.Month;
+            var ef = start.Day;
 
+            for (var i = start.Year; i <= end.Year; i++)
+            {
                 if (i > start.Year)
                 {
                     m = 1;
@@ -107,14 +111,18 @@ namespace truehomework
                 listBox1.Items.Add("---------------------------------------------------------------");
 
 
+
+
+
+
             }
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.gobake();
         }
-        /// <summary> 新增各車種cc數</summary>
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.Text == "機車")
@@ -129,7 +137,7 @@ namespace truehomework
                 comboBox2.Items.Add("1801或以上");
                 comboBox2.SelectedIndex = 0;
             }
-            else if (comboBox1.Text == "貨車")
+                    else if (comboBox1.Text == "貨車")
             {
                 comboBox2.Items.Clear();
                 comboBox2.Items.Add("500以下");
@@ -214,7 +222,7 @@ namespace truehomework
         {
             this.dateTimePicker1.Visible = false;
             this.dateTimePicker2.Visible = false;
-            this.label5.Visible = false;
+            this.label6.Visible = false;
             dateTimePicker1.Value = new DateTime(DateTime.Now.Year, 01, 01);
             dateTimePicker2.Value = new DateTime(DateTime.Now.Year, 12, 31);
 
@@ -224,11 +232,12 @@ namespace truehomework
         {
             this.dateTimePicker1.Visible = true;
             this.dateTimePicker2.Visible = true;
-            this.label5.Visible = true;
+            this.label6.Visible = true;
         }
 
-        
-        /// <summary>歸零</summary>
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+        }
         private void gobake()
         {
             this.radioButton1.Checked = true;
@@ -459,10 +468,8 @@ namespace truehomework
 
         }
 
-        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
-        {
 
-        }
         #endregion
-    }
+    } 
 }
+

@@ -44,14 +44,14 @@ namespace truehomework
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.radioButton1.Location = new System.Drawing.Point(334, 34);
+            this.radioButton1.Location = new System.Drawing.Point(323, 29);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(111, 31);
             this.radioButton1.TabIndex = 0;
@@ -63,7 +63,7 @@ namespace truehomework
             // 
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("新細明體", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.radioButton2.Location = new System.Drawing.Point(532, 34);
+            this.radioButton2.Location = new System.Drawing.Point(497, 29);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(111, 31);
             this.radioButton2.TabIndex = 1;
@@ -84,7 +84,7 @@ namespace truehomework
             "營業用小客車"});
             this.comboBox1.Location = new System.Drawing.Point(308, 126);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(384, 29);
+            this.comboBox1.Size = new System.Drawing.Size(315, 29);
             this.comboBox1.TabIndex = 2;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -95,7 +95,7 @@ namespace truehomework
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(308, 189);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(384, 29);
+            this.comboBox2.Size = new System.Drawing.Size(315, 29);
             this.comboBox2.TabIndex = 3;
             // 
             // label1
@@ -140,7 +140,7 @@ namespace truehomework
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(221, 439);
+            this.button1.Location = new System.Drawing.Point(209, 453);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 74);
             this.button1.TabIndex = 9;
@@ -150,7 +150,7 @@ namespace truehomework
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(408, 439);
+            this.button2.Location = new System.Drawing.Point(538, 453);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(149, 74);
             this.button2.TabIndex = 10;
@@ -162,7 +162,7 @@ namespace truehomework
             // 
             this.dateTimePicker1.AllowDrop = true;
             this.dateTimePicker1.CustomFormat = "yyyy-MM-dd";
-            this.dateTimePicker1.Location = new System.Drawing.Point(334, 86);
+            this.dateTimePicker1.Location = new System.Drawing.Point(309, 80);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(138, 22);
             this.dateTimePicker1.TabIndex = 11;
@@ -175,7 +175,7 @@ namespace truehomework
             // 
             this.dateTimePicker2.AllowDrop = true;
             this.dateTimePicker2.CustomFormat = "yyyy-MM-dd";
-            this.dateTimePicker2.Location = new System.Drawing.Point(532, 86);
+            this.dateTimePicker2.Location = new System.Drawing.Point(485, 80);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(138, 22);
             this.dateTimePicker2.TabIndex = 13;
@@ -194,27 +194,27 @@ namespace truehomework
             this.listBox1.Font = new System.Drawing.Font("新細明體", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 19;
-            this.listBox1.Location = new System.Drawing.Point(308, 257);
+            this.listBox1.Location = new System.Drawing.Point(309, 257);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(384, 156);
+            this.listBox1.Size = new System.Drawing.Size(314, 175);
             this.listBox1.TabIndex = 15;
             // 
-            // label5
+            // label6
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("新細明體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label5.Location = new System.Drawing.Point(491, 86);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(21, 21);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "~";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("新細明體", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.label6.Location = new System.Drawing.Point(458, 80);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(21, 21);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "~";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(752, 546);
-            this.Controls.Add(this.label5);
+            this.ClientSize = new System.Drawing.Size(822, 571);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
@@ -246,13 +246,14 @@ namespace truehomework
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
