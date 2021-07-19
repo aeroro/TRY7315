@@ -55,10 +55,10 @@ namespace truehomework
                 perc = Commeraicl;
 
             listBox1.Items.Clear();
-            var m = start.Month;
-            var f = start.Day;
-            var em = start.Month;
-            var ef = start.Day;
+            int m  ;
+            int f ;
+            int em ;
+            int ef ;
 
             for (var i = start.Year; i <= end.Year; i++)
             {
