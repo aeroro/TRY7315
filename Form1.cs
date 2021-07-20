@@ -59,7 +59,7 @@ namespace truehomework
             int f ;
             int em ;
             int ef ;
-
+            decimal allmoney = 0;
             for (var i = start.Year; i <= end.Year; i++)
             {
                 if (i > start.Year)
@@ -100,22 +100,17 @@ namespace truehomework
 
                 decimal mony = perc * dayCount / years;
                 mony = Math.Truncate(mony);
-
+                allmoney += mony;
 
                 listBox1.Items.Add($"使用期間: {i}-{m}-{f} ~ {i}-{em}-{ef} ");
                 listBox1.Items.Add($"計算天數: {dayCount}");
                 listBox1.Items.Add($"汽缸CC數: {comboBox2.Text}");
                 listBox1.Items.Add($"用途: {comboBox1.Text}");
                 listBox1.Items.Add($"計算公式: {perc} * {dayCount} / {years} = {mony}元");
-                listBox1.Items.Add($"應納稅額: 共 {mony} 元");
+                listBox1.Items.Add($"本期: 共 {mony} 元");
                 listBox1.Items.Add("---------------------------------------------------------------");
-
-
-
-
-
-
             }
+            listBox1.Items.Add($"總共稅額加總: 共 {allmoney} 元");
 
         }
 
